@@ -1,7 +1,7 @@
 Monthly_income = int(input("Enter your monthly income:"))
-Monthly_expense = int(input"Enter your monthly expense")
+Monthly_expenses = int(input"Enter your monthly expense")
 
-Monthly_savings = Monthly_income - Monthly_expense
+Monthly_savings = Monthly_income - Monthly_expenses
 
 print(f" your monthly savings are {Monthly_savings}")
 
