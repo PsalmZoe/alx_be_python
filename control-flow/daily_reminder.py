@@ -26,7 +26,7 @@ def get_task_details():
     if time_bound == "yes":
         reminder += " That requires immediate attention today!"
 
-    print "(reminder:)"
+    print ("reminder:")
 
 # Main program
 if __name__ == "__main__":
