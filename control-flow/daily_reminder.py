@@ -9,7 +9,7 @@ def get_task_details():
     priority = input("Priority (high/medium/low): ").lower()
     
     # Ask if the task is time-sensitive
-    time_bound = input("Is it time-bound?(yes/no)").lower()
+    time_bound = input("Is it time-bound?(yes/no):").lower()
 
     # Generate the reminder based on priority
     match priority:
