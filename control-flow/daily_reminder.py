@@ -3,13 +3,13 @@
 # Function to get task details and provide a reminder
 def get_task_details():
     # Prompt the user for the task description
-    task = input("Enter your task")
+    task = input("Enter your task:")
     
     # Prompt for the task's priority
     priority = input("Priority (high/medium/low): ").lower()
     
     # Ask if the task is time-sensitive
-    time_bound = input("Is it time bound?").lower()
+    time_bound = input("Is it time bound? (yes/no)").lower()
 
     # Generate the reminder based on priority
     match priority:
