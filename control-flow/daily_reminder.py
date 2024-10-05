@@ -14,19 +14,19 @@ def get_task_details():
     # Generate the reminder based on priority
     match priority:
         case "high":
-            Reminder: = f"Your task '{task}' is of high priority."
+            reminder = f"Your task '{task}' is of high priority."
         case "medium":
-            Reminder: = f"Your task '{task}' is of medium priority."
+            reminder = f"Your task '{task}' is of medium priority."
         case "low":
-            Reminder: = f"Your task '{task}' is of low priority."
+            reminder = f"Your task '{task}' is of low priority."
         case _:
-            Reminder: = "The priority level you entered is not recognized."
+            reminder = "The priority level you entered is not recognized."
 
     # Modify the reminder if the task is time-bound
     if time_bound == "yes":
         reminder += " That requires immediate attention today!"
 
-    print(Reminder:)
+    print "(reminder:)"
 
 # Main program
 if __name__ == "__main__":
